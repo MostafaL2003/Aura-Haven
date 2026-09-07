@@ -5,18 +5,16 @@ import Input from "../../ui/Input";
 import FormRowVertical from "../../ui/FormRowVertical";
 import { useLogin } from "./useLogin";
 
-
 function LoginForm() {
-  const [email, setEmail] = useState("mostafa@example.com");
-  const [password, setPassword] = useState('pass123');
-  const {isLoading , login}= useLogin()
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const { isLoading, login } = useLogin();
 
   function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
 
-    if(!email || !password) return
-login({email,password})
-
+    if (!email || !password) return;
+    login({ email, password });
   }
 
   return (
@@ -42,7 +40,9 @@ login({email,password})
         />
       </FormRowVertical>
       <FormRowVertical>
-        <Button disabled={isLoading} size="large">Login</Button>
+        <Button disabled={isLoading} size="large">
+          Login
+        </Button>
       </FormRowVertical>
     </Form>
   );
