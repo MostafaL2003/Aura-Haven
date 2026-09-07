@@ -52,8 +52,8 @@ Built with **React 18**, **TanStack React Query**, **Supabase (PostgreSQL & Stor
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/aura-haven-dashboard.git
-cd aura-haven-dashboard
+git clone https://github.com/MostafaL2003/Aura-Haven.git
+cd Aura-Haven
 ```
 
 ### 2. Install dependencies
