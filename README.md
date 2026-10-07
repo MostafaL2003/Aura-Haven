@@ -1,11 +1,16 @@
 # 🌿 Aura Haven — Luxury Property & Operations Management Dashboard
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-aura--haven--mu.vercel.app-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://aura-haven-mu.vercel.app/login)
+
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TanStack Query](https://img.shields.io/badge/TanStack_Query-v4-FF4154?logo=reactquery&logoColor=white)](https://tanstack.com/query/v4)
 [![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?logo=supabase&logoColor=white)](https://supabase.com/)
 [![Styled Components](https://img.shields.io/badge/Styled_Components-v6-DB7093?logo=styledcomponents&logoColor=white)](https://styled-components.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> 🚀 **Live Demo:** [https://aura-haven-mu.vercel.app/login](https://aura-haven-mu.vercel.app/login)  
+> *Recruiters and portfolio reviewers can use the built-in **"Log in as Demo Staff"** quick access button to explore the full operations dashboard.*
 
 An enterprise-grade, full-stack internal operations and reservation management dashboard designed for boutique luxury resorts and premium hospitality properties.
 
@@ -110,6 +115,8 @@ npm run preview
 ### Deploying to Vercel or Netlify
 
 #### **Vercel**
+
+- **Production URL:** [https://aura-haven-mu.vercel.app/login](https://aura-haven-mu.vercel.app/login)
 
 1. Import your GitHub repository into [Vercel](https://vercel.com/).
 2. Framework Preset: **Vite**.
